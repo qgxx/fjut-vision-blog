@@ -51,13 +51,13 @@ git clone https://github.com/typical-motion/fjut-vision-blog.git
 在``.md``文件下使用相对路径
 
 #### 3.在本地验证是否有bug  
-```npm run start```  
+```yarn build```  
+（对大小写敏感、本地能过服务区不一定能过）
 
 #### 4.上传代码至GitHub  
 
 ```
 git add . 
-git commit -m "commit"  
-git config --global http.postBuffer 1048576000
-git push -u origin master
+git commit -m "简介"  
+git push
 ```
