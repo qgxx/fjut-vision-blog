@@ -39,23 +39,25 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 
-## 如何上传本地文件至doc
-1.使用git将项目克隆到本地
+## 如何上传本地文件至VisionBlog
+#### 1.使用git将项目克隆到本地
 ```
 git clone https://github.com/typical-motion/fjut-vision-blog.git
 ```
 
-2.在``docs``目录下编写``.md``文件
+#### 2.在``docs``目录下编写``.md``文件
 
 **Tips:** 如果需要图片，则需要将图片添加到``static``目录下  
 在``.md``文件下使用相对路径
 
-3.在本地验证是否有bug  
+#### 3.在本地验证是否有bug  
 ```npm run start```  
 
-4.上传代码至GitHub  
+#### 4.上传代码至GitHub  
 
-```  
+```
+git add . 
+git commit -m "commit"  
 git config --global http.postBuffer 1048576000
 git push -u origin master
 ```
