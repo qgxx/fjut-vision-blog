@@ -41,6 +41,7 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 
 ## 如何上传本地文件至VisionBlog
 #### 1.使用git将项目克隆到本地
+> 首先更新 fork，然后再进行拉取
 ```
 git clone https://github.com/typical-motion/fjut-vision-blog.git
 ```
@@ -61,3 +62,6 @@ git add .
 git commit -m "简介"  
 git push
 ```
+
+#### 5.pull to base
+确认没有问题之后记得 `pull requests`
