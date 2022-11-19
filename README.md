@@ -53,7 +53,7 @@ git clone https://github.com/typical-motion/fjut-vision-blog.git
 
 #### 3.在本地验证是否有bug  
 ```yarn build```  
-（对大小写敏感、本地能过服务区不一定能过）
+（对大小写敏感、本地能过服务器build不一定能过）
 
 #### 4.上传代码至GitHub  
 
