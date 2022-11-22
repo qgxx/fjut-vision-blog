@@ -38,6 +38,7 @@ Not using SSH:
 $ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
+# pull 加简介啊
 
 ## 如何上传本地文件至VisionBlog
 #### 1.使用git将项目克隆到本地
